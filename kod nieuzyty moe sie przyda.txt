@@ -1,0 +1,131 @@
+<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+
+
+
+<!-- Image -->
+									<h2>Image</h2>
+
+									<h3>Fit</h3>
+									<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<!-- Break -->
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<!-- Break -->
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+
+
+
+<style>
+			body{
+				margin: 0;
+				padding: 0;
+			}
+
+			.container{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100vh;
+				animation: animate 16s ease-in-out infinite;
+				background-size: cover;
+			}
+
+			@keyframes animate{
+				0%,100%{
+					background-image: url(images/tlo1.JPG);
+				}
+				10%,{
+					background-image: url(images/tlo2.JPG);
+				}
+				20%,{
+					background-image: url(images/tlo3.JPG);
+				}
+				30%,{
+					background-image: url(images/tlo4.JPG);
+				}
+				40%,{
+					background-image: url(images/tlo5.JPG);
+				}
+				50%,{
+					background-image: url(images/tlo6.JPG);
+				}
+				60%,{
+					background-image: url(images/tlo7.JPG);
+				}
+				70%,{
+					background-image: url(images/tlo9.JPG);
+				}
+				80%,{
+					background-image: url(images/tlo10.JPG);
+				}
+				90%,{
+					background-image: url(images/tlo11.JPG);
+				}
+			}
+		</style>
+
+
+		<div class="container">
+			<div class="outer">
+			<div class="details">
+				
+			</div>
+			</div>
+			
+				</div>
+
+
+	#videoBG {
+		position:fixed;
+		z-index: -1;
+	}
+
+<video id+videoBG" poster="images/poster.jpg" autoplay muted loop>
+		<source src="images/background.mp4" type="video/mp4">
+	</video>
